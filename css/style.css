@@ -1,0 +1,167 @@
+.selfie {
+	height: ;
+	width: ;
+}
+
+.myHeading {
+	font-weight: bold;
+}
+
+.myNavbar {
+	background-color: #ffffff;
+	border-bottom: 1px solid black;
+}
+
+.myLinks::hover {
+	color: green;
+}
+
+.myBackground {
+	background-image: url(../img/crossword.png);
+	background-size: 100%;
+	margin: auto;
+
+}
+
+.mainDiv {
+	margin-top: 5%;
+	max-width: 100%
+	max-height: 100%;
+}
+
+.aboutMe {
+	background-color: #f5f5f5;
+	border: 1px solid #cccccc;
+	max-width: 100%;
+	max-height: 100%;
+	padding-bottom: 10%;
+}
+
+.sidebar {
+	background-color: #f5f5f5;
+	border: 1px solid #cccccc;
+	height: 75%; 
+	padding-bottom: ;
+	
+}
+
+.myLinks {
+	list-style-type: none;
+	display: inline-flex;
+	align-content: center;
+	padding: 5%;
+}
+
+.icon {
+	height: 48px;
+	width: 48px;
+}
+
+.myThumb {
+	height: 200px; 
+	width: 200px;
+}
+
+
+.stickyFooter {
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	height: 80px;
+	line-height: 80px;
+	background-color: #b8b0a2;
+	border-top: 1px solid black;
+	text-align: center;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+
+/* MEDIA QUERIES */
+
+/* -----------------LAPTOPS------------------*/
+@media screen 
+  and (min-device-width: 1200px) 
+  and (max-device-width: 1920px) 
+  and (-webkit-min-device-pixel-ratio: 1) { 
+  	.mainDiv {
+  		width: 100%;
+  		padding: 20px;
+  	}
+  	.aboutMe,
+  	.sidebar {
+  		width: 100%;
+  	}
+  	.sidebar {
+  		margin-top: 40px
+  	}
+  	.stickyFooter {
+  		position: relative;
+  	}
+}
+
+@media screen 
+  and (min-device-width: 1200px) 
+  and (max-device-width: 1600px) 
+  and (-webkit-min-device-pixel-ratio: 1) { 
+  	.mainDiv {
+  		width: 100%;
+  		padding: 20px;
+  	}
+  	.aboutMe,
+  	.sidebar {
+  		width: 100%;
+  	}
+  	.sidebar {
+  		margin-top: 40px
+  	}
+  	.stickyFooter {
+  		position: relative;
+  	}
+}
+
+/* ----------- Tablets ----------- */
+@media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px) 
+  and (-webkit-min-device-pixel-ratio: 2) {
+	.mainDiv {
+  		width: 100%;
+  		padding: 20px;
+  	}
+  	.aboutMe,
+  	.sidebar {
+  		width: 100%;
+  	}
+  	.sidebar {
+  		margin-top: 40px
+  	}
+  	.stickyFooter {
+  		position: relative;
+  	}
+}
+
+/* ---------------Phones------------------*/
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 667px) 
+  and (-webkit-min-device-pixel-ratio: 2) { 
+  	.mainDiv {
+  		width: 100%;
+  		padding: 20px;
+  	}
+  	.aboutMe,
+  	.sidebar {
+  		width: 100%;
+  	}
+  	.sidebar {
+  		margin-top: 40px
+  	}
+  	.stickyFooter {
+  		position: relative;
+  	}
+
+}
